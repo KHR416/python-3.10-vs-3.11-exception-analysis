@@ -1,0 +1,45 @@
+import builtins
+
+
+def parse_execution_times(filename):
+    execution_times = []
+    with open(filename, "r") as file:
+        lines = file.readlines()
+        for line in lines:
+            if line.startswith("Average execution time"):
+                execution_time = round(float(line.split(":")[-1].strip().split()[0]))
+                execution_times.append(execution_time)
+    return execution_times
+
+
+exceptions = [exc for exc in dir(builtins) if exc.endswith("Error")]
+
+python_310_time = {}
+python_311_time = {}
+
+for exception_type in exceptions:
+    filename_310 = (
+        f"./log/exception_handling_time_log_python_3.10.0_{exception_type}.txt"
+    )
+    filename_311 = (
+        f"./log/exception_handling_time_log_python_3.11.0_{exception_type}.txt"
+    )
+
+    python_310_time[exception_type] = parse_execution_times(filename_310)
+    python_311_time[exception_type] = parse_execution_times(filename_311)
+
+output_filename = "./analysis/execution_time_difference.txt"
+with open(output_filename, "w") as output_file:
+    for exception_type in exceptions:
+        output_file.write(f"Exception Type: {exception_type}\n")
+        for time_310, time_311 in zip(
+            python_310_time[exception_type], python_311_time[exception_type]
+        ):
+            time_difference = time_311 - time_310
+            time_difference_per_one_exception = time_difference / 1000000
+            percentage = (time_difference / time_310) * 100
+            output_file.write(
+                f"Time difference per one exception : {time_difference_per_one_exception} ns\n"
+            )
+            output_file.write(f"Percentage: {percentage} %\n")
+            output_file.write("\n")
