@@ -35,11 +35,22 @@ with open(output_filename, "w") as output_file:
         for time_310, time_311 in zip(
             python_310_time[exception_type], python_311_time[exception_type]
         ):
-            time_difference = time_311 - time_310
-            time_difference_per_one_exception = time_difference / 1000000
-            percentage = (time_difference / time_310) * 100
-            output_file.write(
-                f"Time difference per one exception : {time_difference_per_one_exception} ns\n"
+            time_per_one_exception_310 = time_310 / 1000000
+            time_per_one_exception_311 = time_311 / 1000000
+            time_difference_per_one_exception = (
+                time_per_one_exception_311 - time_per_one_exception_310
             )
-            output_file.write(f"Percentage: {percentage} %\n")
+            percentage = (
+                time_difference_per_one_exception / time_per_one_exception_310
+            ) * 100
+            output_file.write(
+                f"time per one exception of 3.10: {time_per_one_exception_310:.2f} ns\n"
+            )
+            output_file.write(
+                f"time per one exception of 3.11: {time_per_one_exception_311:.2f} ns\n"
+            )
+            output_file.write(
+                f"Time difference per one exception : {time_difference_per_one_exception:.2f} ns\n"
+            )
+            output_file.write(f"Percentage: {percentage:.2f} %\n")
             output_file.write("\n")

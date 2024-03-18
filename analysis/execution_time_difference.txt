@@ -1,196 +1,294 @@
 Exception Type: ArithmeticError
-Time difference per one exception : 28.39486 ns
-Percentage: 19.661604087362626 %
+time per one exception of 3.10: 144.42 ns
+time per one exception of 3.11: 172.81 ns
+Time difference per one exception : 28.39 ns
+Percentage: 19.66 %
 
 Exception Type: AssertionError
-Time difference per one exception : 26.462214 ns
-Percentage: 18.33308935136846 %
+time per one exception of 3.10: 144.34 ns
+time per one exception of 3.11: 170.80 ns
+Time difference per one exception : 26.46 ns
+Percentage: 18.33 %
 
 Exception Type: AttributeError
-Time difference per one exception : 20.408614 ns
-Percentage: 13.19699393317367 %
+time per one exception of 3.10: 154.65 ns
+time per one exception of 3.11: 175.05 ns
+Time difference per one exception : 20.41 ns
+Percentage: 13.20 %
 
 Exception Type: BlockingIOError
-Time difference per one exception : 21.269044 ns
-Percentage: 13.442886766391792 %
+time per one exception of 3.10: 158.22 ns
+time per one exception of 3.11: 179.49 ns
+Time difference per one exception : 21.27 ns
+Percentage: 13.44 %
 
 Exception Type: BrokenPipeError
-Time difference per one exception : 27.374484 ns
-Percentage: 17.77413577698468 %
+time per one exception of 3.10: 154.01 ns
+time per one exception of 3.11: 181.39 ns
+Time difference per one exception : 27.37 ns
+Percentage: 17.77 %
 
 Exception Type: BufferError
-Time difference per one exception : 34.23799 ns
-Percentage: 24.608817227217852 %
+time per one exception of 3.10: 139.13 ns
+time per one exception of 3.11: 173.37 ns
+Time difference per one exception : 34.24 ns
+Percentage: 24.61 %
 
 Exception Type: ChildProcessError
-Time difference per one exception : 36.071042 ns
-Percentage: 24.110733341896285 %
+time per one exception of 3.10: 149.61 ns
+time per one exception of 3.11: 185.68 ns
+Time difference per one exception : 36.07 ns
+Percentage: 24.11 %
 
 Exception Type: ConnectionAbortedError
-Time difference per one exception : 28.35948 ns
-Percentage: 18.703759284482878 %
+time per one exception of 3.10: 151.62 ns
+time per one exception of 3.11: 179.98 ns
+Time difference per one exception : 28.36 ns
+Percentage: 18.70 %
 
 Exception Type: ConnectionError
-Time difference per one exception : 34.858412 ns
-Percentage: 23.33053483558124 %
+time per one exception of 3.10: 149.41 ns
+time per one exception of 3.11: 184.27 ns
+Time difference per one exception : 34.86 ns
+Percentage: 23.33 %
 
 Exception Type: ConnectionRefusedError
-Time difference per one exception : 23.101688 ns
-Percentage: 14.673226106098753 %
+time per one exception of 3.10: 157.44 ns
+time per one exception of 3.11: 180.54 ns
+Time difference per one exception : 23.10 ns
+Percentage: 14.67 %
 
 Exception Type: ConnectionResetError
-Time difference per one exception : 23.175212 ns
-Percentage: 14.087231203650774 %
+time per one exception of 3.10: 164.51 ns
+time per one exception of 3.11: 187.69 ns
+Time difference per one exception : 23.18 ns
+Percentage: 14.09 %
 
 Exception Type: EOFError
-Time difference per one exception : 30.123288 ns
-Percentage: 21.435770902238577 %
+time per one exception of 3.10: 140.53 ns
+time per one exception of 3.11: 170.65 ns
+Time difference per one exception : 30.12 ns
+Percentage: 21.44 %
 
 Exception Type: EnvironmentError
-Time difference per one exception : 31.216506 ns
-Percentage: 20.121285761805403 %
+time per one exception of 3.10: 155.14 ns
+time per one exception of 3.11: 186.36 ns
+Time difference per one exception : 31.22 ns
+Percentage: 20.12 %
 
 Exception Type: FileExistsError
-Time difference per one exception : 28.17354 ns
-Percentage: 17.91223930094663 %
+time per one exception of 3.10: 157.29 ns
+time per one exception of 3.11: 185.46 ns
+Time difference per one exception : 28.17 ns
+Percentage: 17.91 %
 
 Exception Type: FileNotFoundError
-Time difference per one exception : 31.520106 ns
-Percentage: 20.30076931284201 %
+time per one exception of 3.10: 155.27 ns
+time per one exception of 3.11: 186.79 ns
+Time difference per one exception : 31.52 ns
+Percentage: 20.30 %
 
 Exception Type: FloatingPointError
-Time difference per one exception : 28.875096 ns
-Percentage: 19.69509999409456 %
+time per one exception of 3.10: 146.61 ns
+time per one exception of 3.11: 175.49 ns
+Time difference per one exception : 28.88 ns
+Percentage: 19.70 %
 
 Exception Type: IOError
-Time difference per one exception : 30.864372 ns
-Percentage: 19.85200529015089 %
+time per one exception of 3.10: 155.47 ns
+time per one exception of 3.11: 186.34 ns
+Time difference per one exception : 30.86 ns
+Percentage: 19.85 %
 
 Exception Type: ImportError
-Time difference per one exception : 33.047562 ns
-Percentage: 20.783767466256116 %
+time per one exception of 3.10: 159.01 ns
+time per one exception of 3.11: 192.05 ns
+Time difference per one exception : 33.05 ns
+Percentage: 20.78 %
 
 Exception Type: IndentationError
-Time difference per one exception : 26.634294 ns
-Percentage: 17.50449950184298 %
+time per one exception of 3.10: 152.16 ns
+time per one exception of 3.11: 178.79 ns
+Time difference per one exception : 26.63 ns
+Percentage: 17.50 %
 
 Exception Type: IndexError
-Time difference per one exception : 33.44177 ns
-Percentage: 23.483235332061916 %
+time per one exception of 3.10: 142.41 ns
+time per one exception of 3.11: 175.85 ns
+Time difference per one exception : 33.44 ns
+Percentage: 23.48 %
 
 Exception Type: InterruptedError
-Time difference per one exception : 29.081624 ns
-Percentage: 18.464076285340955 %
+time per one exception of 3.10: 157.50 ns
+time per one exception of 3.11: 186.59 ns
+Time difference per one exception : 29.08 ns
+Percentage: 18.46 %
 
 Exception Type: IsADirectoryError
-Time difference per one exception : 30.727976 ns
-Percentage: 20.26155333096491 %
+time per one exception of 3.10: 151.66 ns
+time per one exception of 3.11: 182.38 ns
+Time difference per one exception : 30.73 ns
+Percentage: 20.26 %
 
 Exception Type: KeyError
-Time difference per one exception : 39.343198 ns
-Percentage: 28.32744906135692 %
+time per one exception of 3.10: 138.89 ns
+time per one exception of 3.11: 178.23 ns
+Time difference per one exception : 39.34 ns
+Percentage: 28.33 %
 
 Exception Type: LookupError
-Time difference per one exception : 36.691266 ns
-Percentage: 26.46320575075169 %
+time per one exception of 3.10: 138.65 ns
+time per one exception of 3.11: 175.34 ns
+Time difference per one exception : 36.69 ns
+Percentage: 26.46 %
 
 Exception Type: MemoryError
-Time difference per one exception : 36.370726 ns
-Percentage: 30.779210817492725 %
+time per one exception of 3.10: 118.17 ns
+time per one exception of 3.11: 154.54 ns
+Time difference per one exception : 36.37 ns
+Percentage: 30.78 %
 
 Exception Type: ModuleNotFoundError
-Time difference per one exception : 40.39832 ns
-Percentage: 26.589942278338107 %
+time per one exception of 3.10: 151.93 ns
+time per one exception of 3.11: 192.33 ns
+Time difference per one exception : 40.40 ns
+Percentage: 26.59 %
 
 Exception Type: NameError
-Time difference per one exception : 41.49172 ns
-Percentage: 27.925819767190564 %
+time per one exception of 3.10: 148.58 ns
+time per one exception of 3.11: 190.07 ns
+Time difference per one exception : 41.49 ns
+Percentage: 27.93 %
 
 Exception Type: NotADirectoryError
-Time difference per one exception : 34.554 ns
-Percentage: 23.210339981438178 %
+time per one exception of 3.10: 148.87 ns
+time per one exception of 3.11: 183.43 ns
+Time difference per one exception : 34.55 ns
+Percentage: 23.21 %
 
 Exception Type: NotImplementedError
-Time difference per one exception : 40.468708 ns
-Percentage: 29.20202314496217 %
+time per one exception of 3.10: 138.58 ns
+time per one exception of 3.11: 179.05 ns
+Time difference per one exception : 40.47 ns
+Percentage: 29.20 %
 
 Exception Type: OSError
-Time difference per one exception : 36.085914 ns
-Percentage: 24.23194763276018 %
+time per one exception of 3.10: 148.92 ns
+time per one exception of 3.11: 185.00 ns
+Time difference per one exception : 36.09 ns
+Percentage: 24.23 %
 
 Exception Type: OverflowError
-Time difference per one exception : 35.399548 ns
-Percentage: 24.78924218305033 %
+time per one exception of 3.10: 142.80 ns
+time per one exception of 3.11: 178.20 ns
+Time difference per one exception : 35.40 ns
+Percentage: 24.79 %
 
 Exception Type: PermissionError
-Time difference per one exception : 33.451124 ns
-Percentage: 22.425571258991347 %
+time per one exception of 3.10: 149.17 ns
+time per one exception of 3.11: 182.62 ns
+Time difference per one exception : 33.45 ns
+Percentage: 22.43 %
 
 Exception Type: ProcessLookupError
-Time difference per one exception : 33.436954 ns
-Percentage: 22.158575165009612 %
+time per one exception of 3.10: 150.90 ns
+time per one exception of 3.11: 184.34 ns
+Time difference per one exception : 33.44 ns
+Percentage: 22.16 %
 
 Exception Type: RecursionError
-Time difference per one exception : 36.547136 ns
-Percentage: 26.451688324637203 %
+time per one exception of 3.10: 138.17 ns
+time per one exception of 3.11: 174.71 ns
+Time difference per one exception : 36.55 ns
+Percentage: 26.45 %
 
 Exception Type: ReferenceError
-Time difference per one exception : 39.354134 ns
-Percentage: 28.999964172042052 %
+time per one exception of 3.10: 135.70 ns
+time per one exception of 3.11: 175.06 ns
+Time difference per one exception : 39.35 ns
+Percentage: 29.00 %
 
 Exception Type: RuntimeError
-Time difference per one exception : 37.272106 ns
-Percentage: 27.126392106807113 %
+time per one exception of 3.10: 137.40 ns
+time per one exception of 3.11: 174.67 ns
+Time difference per one exception : 37.27 ns
+Percentage: 27.13 %
 
 Exception Type: SyntaxError
-Time difference per one exception : 27.253 ns
-Percentage: 18.152997483318998 %
+time per one exception of 3.10: 150.13 ns
+time per one exception of 3.11: 177.38 ns
+Time difference per one exception : 27.25 ns
+Percentage: 18.15 %
 
 Exception Type: SystemError
-Time difference per one exception : 35.455802 ns
-Percentage: 25.76967267041759 %
+time per one exception of 3.10: 137.59 ns
+time per one exception of 3.11: 173.04 ns
+Time difference per one exception : 35.46 ns
+Percentage: 25.77 %
 
 Exception Type: TabError
-Time difference per one exception : 30.064136 ns
-Percentage: 20.605073074343867 %
+time per one exception of 3.10: 145.91 ns
+time per one exception of 3.11: 175.97 ns
+Time difference per one exception : 30.06 ns
+Percentage: 20.61 %
 
 Exception Type: TimeoutError
-Time difference per one exception : 32.281142 ns
-Percentage: 21.3988634211502 %
+time per one exception of 3.10: 150.85 ns
+time per one exception of 3.11: 183.14 ns
+Time difference per one exception : 32.28 ns
+Percentage: 21.40 %
 
 Exception Type: TypeError
-Time difference per one exception : 43.137824 ns
-Percentage: 32.033122939703674 %
+time per one exception of 3.10: 134.67 ns
+time per one exception of 3.11: 177.80 ns
+Time difference per one exception : 43.14 ns
+Percentage: 32.03 %
 
 Exception Type: UnboundLocalError
-Time difference per one exception : 37.076346 ns
-Percentage: 25.00757990506867 %
+time per one exception of 3.10: 148.26 ns
+time per one exception of 3.11: 185.34 ns
+Time difference per one exception : 37.08 ns
+Percentage: 25.01 %
 
 Exception Type: UnicodeDecodeError
-Time difference per one exception : 19.659338 ns
-Percentage: 3.3600978526258833 %
+time per one exception of 3.10: 585.08 ns
+time per one exception of 3.11: 604.74 ns
+Time difference per one exception : 19.66 ns
+Percentage: 3.36 %
 
 Exception Type: UnicodeEncodeError
-Time difference per one exception : 22.179726 ns
-Percentage: 3.8131618915484786 %
+time per one exception of 3.10: 581.66 ns
+time per one exception of 3.11: 603.84 ns
+Time difference per one exception : 22.18 ns
+Percentage: 3.81 %
 
 Exception Type: UnicodeError
-Time difference per one exception : 38.053702 ns
-Percentage: 27.557554273179345 %
+time per one exception of 3.10: 138.09 ns
+time per one exception of 3.11: 176.14 ns
+Time difference per one exception : 38.05 ns
+Percentage: 27.56 %
 
 Exception Type: UnicodeTranslateError
-Time difference per one exception : 24.744728 ns
-Percentage: 4.284297581560582 %
+time per one exception of 3.10: 577.57 ns
+time per one exception of 3.11: 602.31 ns
+Time difference per one exception : 24.74 ns
+Percentage: 4.28 %
 
 Exception Type: ValueError
-Time difference per one exception : 38.711324 ns
-Percentage: 28.36942033223903 %
+time per one exception of 3.10: 136.45 ns
+time per one exception of 3.11: 175.17 ns
+Time difference per one exception : 38.71 ns
+Percentage: 28.37 %
 
 Exception Type: WindowsError
-Time difference per one exception : 34.8448 ns
-Percentage: 23.92910247983152 %
+time per one exception of 3.10: 145.62 ns
+time per one exception of 3.11: 180.46 ns
+Time difference per one exception : 34.84 ns
+Percentage: 23.93 %
 
 Exception Type: ZeroDivisionError
-Time difference per one exception : 43.511032 ns
-Percentage: 32.26937835151188 %
+time per one exception of 3.10: 134.84 ns
+time per one exception of 3.11: 178.35 ns
+Time difference per one exception : 43.51 ns
+Percentage: 32.27 %
 
